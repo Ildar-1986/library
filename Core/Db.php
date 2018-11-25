@@ -17,11 +17,11 @@ class Db
         $this->pdo = new \PDO('mysql:host=localhost;dbname=baba;', 'local', '6', $options );
     }
 
-    public function query($sql, $data = [], $class)
+    public function query($sql)
     {
         $sth = $this->pdo->prepare($sql);
-        $sth->execute($data);
-        return $sth->fetchAll(\PDO::FETCH_CLASS, $class);
+        $sth->execute();
+        return $sth->fetchAll(\PDO::FETCH_ASSOC);
     }
 
 }

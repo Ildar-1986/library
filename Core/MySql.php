@@ -5,19 +5,31 @@ namespace Core;
 use Core\Db;
 
 
-use Core\interfece\DkMetod;
 
-class MySql implements DkMetod
+
+class MySql
 {
+    public $pdo;
 
-    public static function findAll($name = '*')
+    public function __construct()
     {
-        $a = new \Core\Db();
+        $this->pdo = new Db();
+    }
 
-        $sql = 'SELECT' . $name .' FROM books_authors
-                JOIN books ON books.id = books_authors.id_book 
-                JOIN authors ON authors.id = books_authors.id_author';
-        return $a->query($sql, [], '\Core\MySql');
+    public  function findAll($name = '*')
+    {
+
+
+        $sql = 'select * from books_authors 
+                join books on books.id_book = books_authors.id_book
+                join authors on authors.id_author = books_authors.id_author';
+        return $this->pdo->query($sql);
+    }
+
+    public function genre()
+    {
+        $sql = 'SELECT * FROM authors';
+        return $this->pdo->query($sql);
     }
 
 
@@ -26,7 +38,7 @@ class MySql implements DkMetod
 
     public static function findOne($id)
     {
-        // TODO: Implement findOne() method.
+        $sql = 'SELECT * FROM ';
     }
 
     public static function genres()

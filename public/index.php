@@ -1,5 +1,4 @@
 
-
 <?php
 //
 //$options = [
@@ -28,21 +27,22 @@
 //    echo '<pre> '. print_r($res, true) .'</pre>';
 //
 //}
+
+
 require_once __DIR__ . '/../vendor/autoload.php';
 
-include_once __DIR__ . '/../Core/MySql.php';
+$data = new \Core\MySql();
+$contents = $data->findAll();
 
 
 
-$data = \Core\MySql::findAll();
+include __DIR__ . '/../views/index.php';
 
-var_dump($data);
 
-?>
 
-<!--<form action="" method="post">-->
-<!--    <textarea name="sql" id="" cols="100" rows="20"></textarea>-->
-<!--    <button type="submit">Отправить</button>-->
-<!--</form>-->
+
+
+
+
 
 
