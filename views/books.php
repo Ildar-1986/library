@@ -22,7 +22,7 @@
                 <a style="color: white" class="nav-link" href="">Жанры</a>
             </li>
             <li class="nav-item">
-                <a style="color: white" class="nav-link" href="/?controller=Books">Авторы</a>
+                <a style="color: white" class="nav-link" href="author.php">Авторы</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -37,15 +37,13 @@
 
 <br>
 <br>
-<ul style="list-style-type: none;">
+<!--<ul style="list-style-type: none;">-->
 <?php
 //var_dump($contents);die;
 foreach ($this->content as $content): ?>
-   <li><a href="#"><?= $content['auth_fio'] ?></a></li>
-
-
+     <?= dump($content) ?>
 <?php endforeach; ?>
-</ul>
+<!--</ul>-->
 </body>
 </html>
 <?php

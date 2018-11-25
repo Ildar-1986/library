@@ -1,4 +1,3 @@
-
 <?php
 //
 //$options = [
@@ -29,14 +28,20 @@
 //}
 
 
+use App\MySql;
+
+include __DIR__ . '/../local/helper.php';
+
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$data = new \Core\MySql();
-$contents = $data->findAll();
+$controller = $_GET['controller'] ?? 'Index';
+$class = '\App\controllers\\' . $controller;
+
+$controller = new $class();
+$controller();
 
 
 
-include __DIR__ . '/../views/index.php';
 
 
 
