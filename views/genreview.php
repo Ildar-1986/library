@@ -16,7 +16,7 @@
     .spoiler_links {cursor:pointer;}
 </style>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+<nav class="navbar navbar-expand-lg navbar-light bg-primary navbar-fixed-top">
     <a class="navbar-brand" href="/">Библиотека</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,10 +25,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a style="color: white" class="nav-link" href="Genre">Жанры</a>
+                <a style="color: white" class="nav-link" href="/Genre">Жанры</a>
             </li>
             <li class="nav-item">
-                <a style="color: white" class="nav-link" href="Author">Авторы</a>
+                <a style="color: white" class="nav-link" href="/Author">Авторы</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -41,24 +41,34 @@
 </nav>
 <br>
 <br>
+<div class="text-center"><h1><?=($this->content[0]['genre_name']) ?></h1></div>
+<br>
 <br>
 <div class="container">
-    <div class="row">
-        <div class="col-md-3 ">
-
-    <ul style="list-style-type: none;">
-
+    <div class="col-md-4"></div>
+    <div class="card-columns">
         <?php
         //var_dump($content['img_book']);die;
-        foreach ($this->content as $content):?>
+        foreach ($this->content as $content):
+            ?>
 
-
-     <li><a href="GenreView/?id=<?=$content['id_genre'] ?>"><?=$content['genre_name'] ?></a></li>
-
+            <div class="card mb-3" >
+                <img class="card-img-top" src="<?= $content['img_book'] ?>" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title"><?= $content['book_name'] ?></h5>
+                    <p class="card-text"><?= $content['description'] ?></p>
+                    <div class="card-footer">
+                        <div>
+                            <a href="#" class="spoiler_links">Спойлер</a>
+                            <div class="spoiler_body">
+                                <p class=><small class="text-muted">Автор: <a href="/AuthorView/?id=<?=$content['author_id'] ?>"><?=$content['auth_fio'] ?></a></small></p>
+                                <p class=><small class="text-muted">Жанры: <?=$content['genre_name'] ?></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         <?php endforeach; ?>
-    </ul>
-        </div>
-
     </div>
 </div>
 

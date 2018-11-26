@@ -1,3 +1,4 @@
+
 <?php
 //
 //$options = [
@@ -34,13 +35,17 @@ include __DIR__ . '/../local/helper.php';
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$controller = $_GET['controller'] ?? 'Index';
+
+$path = $_SERVER['REQUEST_URI'];
+$res = explode('/', $path);
+
+
+
+$controller = $res[1] ?: 'Index';
 $class = '\App\controllers\\' . $controller;
 
 $controller = new $class();
 $controller();
-
-
 
 
 

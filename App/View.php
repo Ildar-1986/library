@@ -16,15 +16,18 @@ class View
         return $this->data[$name] ?? null;
     }
 
+
     public function __set($name, $value)
     {
         $this->data[$name] = $value;
     }
 
+
     public function __isset($name)
     {
         return isset($this->data[$name]);
     }
+
 
      public function render($template)
      {
@@ -35,8 +38,9 @@ class View
          return $content;
      }
 
+
     public function display($template)
     {
-        echo $this->render($template);
+        return $this->render($template);
     }
 }

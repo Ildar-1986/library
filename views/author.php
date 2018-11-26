@@ -19,10 +19,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a style="color: white" class="nav-link" href="">Жанры</a>
+                <a style="color: white" class="nav-link" href="Genre">Жанры</a>
             </li>
             <li class="nav-item">
-                <a style="color: white" class="nav-link" href="/?controller=Books">Авторы</a>
+                <a style="color: white" class="nav-link" href="Author">Авторы</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -41,7 +41,9 @@
 <?php
 //var_dump($contents);die;
 foreach ($this->content as $content): ?>
-   <li><a href="#"><?= $content['auth_fio'] ?></a></li>
+
+
+ <li> <a href="AuthorView/?id=<?=$content['id_author'] ?>"><?=$content['auth_fio'] ?></a></li>
 
 
 <?php endforeach; ?>

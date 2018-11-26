@@ -6,7 +6,7 @@ namespace App\controllers;
 
 use App\Controller;
 
-class Books extends Controller
+class Author extends Controller
 {
 
     /**

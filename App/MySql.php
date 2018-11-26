@@ -18,9 +18,10 @@ class MySql
 
     public  function findAll($name = '*')
     {
-        $sql = 'select * from books_authors 
-                join books on books.id_book = books_authors.id_book
-                join authors on authors.id_author = books_authors.id_author';
+        $sql = 'SELECT * FROM `books_authors`
+                JOIN books ON books_authors.book_id = books.id_book
+                JOIN authors ON books_authors.author_id = authors.id_author
+                JOIN genres ON books_authors.genre_id = genres.id_genre';
         return $this->pdo->query($sql);
     }
 
@@ -31,13 +32,36 @@ class MySql
         return $this->pdo->query($sql);
     }
 
-
-    public function genre()
+    public  function findAllGenre()
     {
-        $sql = 'SELECT * FROM authors';
+        $sql = 'select * from genres';
+
         return $this->pdo->query($sql);
     }
 
+
+
+    public function findByGenre($id)
+    {
+        $sql = 'SELECT * FROM `books_authors`
+                JOIN books ON books_authors.book_id = books.id_book
+                JOIN authors ON books_authors.author_id = authors.id_author
+                JOIN genres ON books_authors.genre_id = genres.id_genre
+                where books_authors.genre_id =' . $id;
+
+        return $this->pdo->query($sql);
+    }
+
+    public function findByAuthor($id)
+    {
+        $sql = 'SELECT * FROM `books_authors`
+                JOIN books ON books_authors.book_id = books.id_book
+                JOIN authors ON books_authors.author_id = authors.id_author
+                JOIN genres ON books_authors.genre_id = genres.id_genre
+                where books_authors.author_id =' . $id;
+
+        return $this->pdo->query($sql);
+    }
 
 
 
