@@ -6,5 +6,12 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Zend\\Stdlib\\' => array($vendorDir . '/zendframework/zend-stdlib/src'),
+    'Zend\\ServiceManager\\' => array($vendorDir . '/zendframework/zend-servicemanager/src'),
+    'Zend\\Db\\' => array($vendorDir . '/zendframework/zend-db/src'),
+    'SphinxSearch\\' => array($vendorDir . '/ripaclub/sphinxsearch/library'),
+    'SphinxSearchTest\\' => array($vendorDir . '/ripaclub/sphinxsearch/tests'),
+    'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
+    'Interop\\Container\\' => array($vendorDir . '/container-interop/container-interop/src/Interop/Container'),
     'App\\' => array($baseDir . '/App'),
 );

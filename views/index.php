@@ -1,3 +1,4 @@
+<div class="card-columns" style="margin-top: 200px">
 <?php
 foreach ($this->contents as $content):?>
         <div class="card mb-3" >

@@ -7,6 +7,25 @@ namespace Composer\Autoload;
 class ComposerStaticInit1f9d1d8197f6a699641821a9b6078482
 {
     public static $prefixLengthsPsr4 = array (
+        'Z' => 
+        array (
+            'Zend\\Stdlib\\' => 12,
+            'Zend\\ServiceManager\\' => 20,
+            'Zend\\Db\\' => 8,
+        ),
+        'S' => 
+        array (
+            'SphinxSearch\\' => 13,
+            'SphinxSearchTest\\' => 17,
+        ),
+        'P' => 
+        array (
+            'Psr\\Container\\' => 14,
+        ),
+        'I' => 
+        array (
+            'Interop\\Container\\' => 18,
+        ),
         'A' => 
         array (
             'App\\' => 4,
@@ -14,6 +33,34 @@ class ComposerStaticInit1f9d1d8197f6a699641821a9b6078482
     );
 
     public static $prefixDirsPsr4 = array (
+        'Zend\\Stdlib\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-stdlib/src',
+        ),
+        'Zend\\ServiceManager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-servicemanager/src',
+        ),
+        'Zend\\Db\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-db/src',
+        ),
+        'SphinxSearch\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ripaclub/sphinxsearch/library',
+        ),
+        'SphinxSearchTest\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ripaclub/sphinxsearch/tests',
+        ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Interop\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/App',

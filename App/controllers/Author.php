@@ -9,9 +9,7 @@ use App\Controller;
 class Author extends Controller
 {
 
-    /**
-     *
-     */
+
     public function __invoke()
     {
 

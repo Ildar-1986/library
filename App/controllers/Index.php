@@ -6,6 +6,10 @@ namespace App\controllers;
 
 use App\Controller;
 
+/**
+ * Class Index
+ * @package App\controllers
+ */
 class Index extends Controller
 {
 

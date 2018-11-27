@@ -6,6 +6,7 @@ namespace App;
 
 /**
  * @property array content
+ * @property array contents
  */
 class View
 {
@@ -29,7 +30,7 @@ class View
     }
 
 
-     public function render($template)
+     private function render($template)
      {
          ob_start();
          include $template;

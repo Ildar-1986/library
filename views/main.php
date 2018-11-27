@@ -39,27 +39,38 @@
             </li>
         </ul>
 
-        <form class="form-inline my-2 my-lg-0" method="post" action="Search/">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="asd" name="ganre" id="defaultCheck1">
+        <form class="form-inline my-2 my-lg-0" method="post" action="/Search">
+            <div class="form-check" style="margin-right: 30px">
+                <input class="form-check-input" type="checkbox" <?=($this->checkbox['genre'] ? 'checked' : null); ?> value="name_genre" name="genre" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">
                     По жанрам
                 </label>
             </div>
+
+            <div class="form-check" style="margin-right: 30px">
+                <input class="form-check-input" type="checkbox" <?=($this->checkbox['book'] ? 'checked' : null); ?> value="name_book" name="book" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    По книгам
+                </label>
+            </div>
+
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="qwe" name="author" id="defaultCheck2">
-                <label class="form-check-label" for="defaultCheck2">
+                <input class="form-check-input" type="checkbox" <?=($this->checkbox['author'] ? 'checked' : null); ?> value="name_author" name="author" id="defaultCheck2">
+                <label class="form-check-label" for="defaultCheck2" style="margin-right: 30px">
                     По авторам
                 </label>
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" value="asdf" name="id"
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" value="" name="search"
                        aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
         </form>
     </div>
 </nav>
-
+<br>
+<br>
+<br>
+<br>
 <div class="container">
-    <div class="card-columns" style="margin-top: 200px">
 
 
+    <?=($this->checkbox['genre'] ? 'checked' : null); ?>
 

@@ -6,7 +6,7 @@ namespace App;
 
 abstract class Controller
 {
-    protected $views;
+    protected $view;
     protected $mysql;
 
     public function __construct()

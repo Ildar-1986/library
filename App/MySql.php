@@ -65,7 +65,7 @@ class MySql
                 join book_genre
                 join books AS books_ganre on books.id = book_genre.id_book
                 join genres on genres.id_genre = book_genre.id_genre
-               WHERE book_auth.id_auth = ' . $id;
+                WHERE book_auth.id_auth = ' . $id;
 
         return $this->pdo->query($sql);
     }
@@ -73,13 +73,51 @@ class MySql
 
 
 
-    public static function findOne($id)
+    public static function findOne()
     {
-        $sql = 'SELECT * FROM ';
+
     }
 
     public static function genres()
     {
         // TODO: Implement genres() method.
+    }
+
+    public function search($author = null, $book = null, $genre = null, $text = null)
+    {
+       $sql = 'SELECT DISTINCT books.id as id_book, books.name_book, books.description, books.img,
+                authors.id AS id_author, authors.name_author, genres.id_genre, genres.name_genre 
+                FROM book_auth 
+                JOIN authors ON authors.id = book_auth.id_auth 
+                JOIN books ON books.id = book_auth.id_book 
+                JOIN book_genre 
+                JOIN books AS books_as ON books.id = book_genre.id_book 
+                JOIN genres ON genres.id_genre = book_genre.id_genre';
+
+
+           if ('name_author' == $author || 'name_book' == $book || 'name_genre' == $genre ){
+//               if ('name_author' == $author || 'name_book' == $book || 'name_genre' == $genre )
+                 if ($text) {
+                     $sql .= ' WHERE';
+                     if ('name_author' == $author)
+                         $prev[] = " MATCH(name_author) AGAINST ('" . $text . "') ";
+                     if ('name_book' == $genre)
+                         $prev[] = " MATCH(name_genre) AGAINST ('" . $text . "') ";
+                     if ('name_genre' == $book)
+                         $prev[] = " MATCH(books_as.name_book) AGAINST ('" . $text . "') ";
+                     $sql .= $this->implode('OR', $prev);
+                 }
+
+               }
+
+
+//dump($sql);
+       return $this->pdo->query($sql);
+
+    }
+
+    private function implode($glue, $arr)
+    {
+        return implode($glue, $arr);
     }
 }
