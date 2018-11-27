@@ -14,7 +14,7 @@ class Db
            \PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
         ];
 
-        $this->pdo = new \PDO('mysql:host=localhost;dbname=baba;', 'local', '6', $options );
+        $this->pdo = new \PDO('mysql:host=localhost;dbname=test;', 'local', '6', $options );
     }
 
     public function query($sql)
