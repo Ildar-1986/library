@@ -1,5 +1,6 @@
 <div class="card-columns" style="margin-top: 200px">
     <?php
+    if ($this->content){
     foreach ($this->content as $content):?>
     <div class="card mb-3" >
         <img class="card-img-top" src="<?= $content['img'] ?>" alt="Card image cap">
@@ -19,4 +20,4 @@
             </div>
         </div>
     </div>
-<?php endforeach; ?>
+<?php endforeach;} else echo '<div class="text-center">Ничего не найдено</div>';

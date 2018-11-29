@@ -1,7 +1,431 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="febab5e1-5ab2-42b4-9ae7-bf51cc67cef1" name="Default Changelist" comment="" />
+    <list default="true" id="febab5e1-5ab2-42b4-9ae7-bf51cc67cef1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/353a8968-c746-47d4-9977-122d661a9bf6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/353a8968-c746-47d4-9977-122d661a9bf6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8b309900-c6cb-42fa-a569-79092dc568c7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8b309900-c6cb-42fa-a569-79092dc568c7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/MySql.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/MySql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/controllers/Author.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/controllers/Author.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/controllers/AuthorView.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/controllers/AuthorView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/controllers/Genre.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/controllers/Genre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/controllers/GenreView.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/controllers/GenreView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/controllers/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/controllers/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/controllers/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/controllers/Main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/controllers/Search.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/controllers/Search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baba (2).sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test (1).sql" beforeDir="false" afterPath="$PROJECT_DIR$/test .sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/container-interop/container-interop/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/container-interop/container-interop/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/container-interop/container-interop/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/container-interop/container-interop/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/ContainerInterface-meta.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/ContainerInterface-meta.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/ContainerInterface.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/ContainerInterface.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/Delegate-lookup-meta.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/Delegate-lookup-meta.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/Delegate-lookup.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/Delegate-lookup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/images/interoperating_containers.png" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/images/interoperating_containers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/images/priority.png" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/images/priority.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/images/side_by_side_containers.png" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/images/side_by_side_containers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/src/Interop/Container/ContainerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/container-interop/container-interop/src/Interop/Container/ContainerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/src/Interop/Container/Exception/ContainerException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/container-interop/container-interop/src/Interop/Container/Exception/ContainerException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/src/Interop/Container/Exception/NotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/container-interop/container-interop/src/Interop/Container/Exception/NotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/container/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psr/container/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/container/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psr/container/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/container/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psr/container/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/container/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psr/container/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/container/src/ContainerExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psr/container/src/ContainerExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/container/src/ContainerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psr/container/src/ContainerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/container/src/NotFoundExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psr/container/src/NotFoundExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/.coveralls.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/.coveralls.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/AbstractComponent.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/AbstractComponent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Adapter/AdapterAbstractServiceFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Adapter/AdapterAbstractServiceFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Adapter/AdapterServiceFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Adapter/AdapterServiceFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Adapter/Driver/Pdo/Statement.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Adapter/Driver/Pdo/Statement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Adapter/Exception/UnsupportedDriverException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Adapter/Exception/UnsupportedDriverException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Adapter/Platform/SphinxQL.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Adapter/Platform/SphinxQL.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Exception/ErrorException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Exception/ErrorException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Exception/ExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Exception/RuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Exception/RuntimeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Exception/UnexpectedValueException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Exception/UnexpectedValueException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Insert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Platform/ExpressionDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Platform/ExpressionDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Predicate/Match.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Predicate/Match.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Replace.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Replace.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Select.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Select.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Show.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Sql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Update.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Db/Sql/Update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Exception/ExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Indexer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Indexer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Query/Exception/ErrorException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Query/Exception/ErrorException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Query/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Query/Exception/ExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Query/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Query/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Query/Exception/RuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Query/Exception/RuntimeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Query/Exception/UnexpectedValueException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Query/Exception/UnexpectedValueException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Query/QueryExpression.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Query/QueryExpression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Query/QueryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Query/QueryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Search.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/library/Search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/AbstractComponentTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/AbstractComponentTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Adapter/AdapterAbstractServiceFactoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Adapter/AdapterAbstractServiceFactoryTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Adapter/AdapterServiceFactoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Adapter/AdapterServiceFactoryTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Adapter/Driver/Pdo/StatementTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Adapter/Driver/Pdo/StatementTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Adapter/Driver/Pdo/TestAsset/CtorlessPdo.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Adapter/Driver/Pdo/TestAsset/CtorlessPdo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Adapter/Driver/Pdo/TestAsset/ParametersBoundedAlreadyStatement.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Adapter/Driver/Pdo/TestAsset/ParametersBoundedAlreadyStatement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Adapter/Platform/SphinxQLTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Adapter/Platform/SphinxQLTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/DeleteTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/DeleteTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/InsertTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/InsertTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/Platform/ExpressionDecoratorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/Platform/ExpressionDecoratorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/Predicate/MatchTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/Predicate/MatchTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/ReplaceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/ReplaceTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/SelectTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/SelectTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/ShowTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/ShowTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/SqlTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/SqlTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/UpdateTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/Sql/UpdateTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/TestAsset/TrustedSphinxQL.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Db/TestAsset/TrustedSphinxQL.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/IndexerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/IndexerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Integration/AbstractIntegrationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Integration/AbstractIntegrationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Integration/MysqliIntegrationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Integration/MysqliIntegrationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Integration/PDOIntegrationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Integration/PDOIntegrationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Query/QueryExpressionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/Query/QueryExpressionTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/SearchTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/SearchTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/TestAsset/ConcreteComponentAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/TestAsset/ConcreteComponentAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/sphinx/sphinx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch/tests/sphinx/sphinx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/phpcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/phpcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Adapter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Adapter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/AdapterAbstractServiceFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/AdapterAbstractServiceFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/AdapterAwareInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/AdapterAwareInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/AdapterAwareTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/AdapterAwareTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/AdapterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/AdapterInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/AdapterServiceFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/AdapterServiceFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/AbstractConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/AbstractConnection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/ConnectionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/ConnectionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/DriverInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/DriverInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Feature/AbstractFeature.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Feature/AbstractFeature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Feature/DriverFeatureInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Feature/DriverFeatureInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/IbmDb2/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/IbmDb2/Connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/IbmDb2/IbmDb2.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/IbmDb2/IbmDb2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/IbmDb2/Result.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/IbmDb2/Result.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/IbmDb2/Statement.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/IbmDb2/Statement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Mysqli/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Mysqli/Connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Mysqli/Mysqli.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Mysqli/Mysqli.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Mysqli/Result.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Mysqli/Result.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Mysqli/Statement.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Mysqli/Statement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Oci8/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Oci8/Connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Oci8/Feature/RowCounter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Oci8/Feature/RowCounter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Oci8/Oci8.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Oci8/Oci8.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Oci8/Result.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Oci8/Result.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Oci8/Statement.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Oci8/Statement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Feature/OracleRowCounter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Feature/OracleRowCounter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Feature/SqliteRowCounter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Feature/SqliteRowCounter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Pdo.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Pdo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Result.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Result.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pgsql/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pgsql/Connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pgsql/Pgsql.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pgsql/Pgsql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pgsql/Result.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pgsql/Result.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pgsql/Statement.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Pgsql/Statement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/ResultInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/ResultInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Sqlsrv/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Sqlsrv/Connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Sqlsrv/Exception/ErrorException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Sqlsrv/Exception/ErrorException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Sqlsrv/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Sqlsrv/Exception/ExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Sqlsrv/Result.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Sqlsrv/Result.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Sqlsrv/Sqlsrv.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Sqlsrv/Sqlsrv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Sqlsrv/Statement.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/Sqlsrv/Statement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/StatementInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Driver/StatementInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Exception/ErrorException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Exception/ErrorException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Exception/ExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Exception/InvalidConnectionParametersException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Exception/InvalidConnectionParametersException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Exception/InvalidQueryException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Exception/InvalidQueryException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Exception/RuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Exception/RuntimeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Exception/UnexpectedValueException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Exception/UnexpectedValueException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/ParameterContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/ParameterContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/AbstractPlatform.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/AbstractPlatform.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/IbmDb2.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/IbmDb2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/Mysql.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/Mysql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/Oracle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/Oracle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/PlatformInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/PlatformInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/Postgresql.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/Postgresql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/Sql92.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/Sql92.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/SqlServer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/SqlServer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/Sqlite.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Platform/Sqlite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Profiler/Profiler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Profiler/Profiler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Profiler/ProfilerAwareInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Profiler/ProfilerAwareInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Profiler/ProfilerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/Profiler/ProfilerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/StatementContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/StatementContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/StatementContainerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Adapter/StatementContainerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/ConfigProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/ConfigProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Exception/ErrorException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Exception/ErrorException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Exception/ExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Exception/RuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Exception/RuntimeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Exception/UnexpectedValueException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Exception/UnexpectedValueException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Metadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Metadata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/MetadataInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/MetadataInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Object/AbstractTableObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Object/AbstractTableObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Object/ColumnObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Object/ColumnObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Object/ConstraintKeyObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Object/ConstraintKeyObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Object/ConstraintObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Object/ConstraintObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Object/TableObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Object/TableObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Object/TriggerObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Object/TriggerObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Object/ViewObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Object/ViewObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Source/AbstractSource.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Source/AbstractSource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Source/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Source/Factory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Source/MysqlMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Source/MysqlMetadata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Source/OracleMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Source/OracleMetadata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Source/PostgresqlMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Source/PostgresqlMetadata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Source/SqlServerMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Source/SqlServerMetadata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Source/SqliteMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Metadata/Source/SqliteMetadata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Module.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/ResultSet/AbstractResultSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/ResultSet/AbstractResultSet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/ResultSet/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/ResultSet/Exception/ExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/ResultSet/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/ResultSet/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/ResultSet/Exception/RuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/ResultSet/Exception/RuntimeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/ResultSet/HydratingResultSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/ResultSet/HydratingResultSet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/ResultSet/ResultSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/ResultSet/ResultSet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/ResultSet/ResultSetInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/ResultSet/ResultSetInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/RowGateway/AbstractRowGateway.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/RowGateway/AbstractRowGateway.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/RowGateway/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/RowGateway/Exception/ExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/RowGateway/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/RowGateway/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/RowGateway/Exception/RuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/RowGateway/Exception/RuntimeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/RowGateway/Feature/AbstractFeature.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/RowGateway/Feature/AbstractFeature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/RowGateway/Feature/FeatureSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/RowGateway/Feature/FeatureSet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/RowGateway/RowGateway.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/RowGateway/RowGateway.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/RowGateway/RowGatewayInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/RowGateway/RowGatewayInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/AbstractExpression.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/AbstractExpression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/AbstractPreparableSql.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/AbstractPreparableSql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/AbstractSql.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/AbstractSql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Combine.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Combine.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/AlterTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/AlterTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/AbstractLengthColumn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/AbstractLengthColumn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/AbstractPrecisionColumn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/AbstractPrecisionColumn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/AbstractTimestampColumn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/AbstractTimestampColumn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/BigInteger.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/BigInteger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Binary.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Binary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Blob.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Blob.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Boolean.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Boolean.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Char.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Char.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Column.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Column.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/ColumnInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/ColumnInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Date.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Date.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Datetime.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Datetime.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Decimal.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Decimal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Float.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Float.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Floating.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Floating.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Integer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Integer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Text.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Text.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Time.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Time.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Timestamp.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Timestamp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Varbinary.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Varbinary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Varchar.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Column/Varchar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Constraint/AbstractConstraint.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Constraint/AbstractConstraint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Constraint/Check.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Constraint/Check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Constraint/ConstraintInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Constraint/ConstraintInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Constraint/ForeignKey.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Constraint/ForeignKey.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Constraint/PrimaryKey.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Constraint/PrimaryKey.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Constraint/UniqueKey.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Constraint/UniqueKey.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/CreateTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/CreateTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/DropTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/DropTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Index/AbstractIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Index/AbstractIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Index/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/Index/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/SqlInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Ddl/SqlInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Exception/ExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Exception/RuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Exception/RuntimeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Expression.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Expression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/ExpressionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/ExpressionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Having.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Having.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Insert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Join.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Join.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Literal.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Literal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/AbstractPlatform.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/AbstractPlatform.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/IbmDb2/IbmDb2.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/IbmDb2/IbmDb2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/IbmDb2/SelectDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/IbmDb2/SelectDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Mysql/Ddl/AlterTableDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Mysql/Ddl/AlterTableDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Mysql/Ddl/CreateTableDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Mysql/Ddl/CreateTableDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Mysql/Mysql.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Mysql/Mysql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Mysql/SelectDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Mysql/SelectDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Oracle/Oracle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Oracle/Oracle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Oracle/SelectDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Oracle/SelectDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Platform.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Platform.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/PlatformDecoratorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/PlatformDecoratorInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/SqlServer/Ddl/CreateTableDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/SqlServer/Ddl/CreateTableDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/SqlServer/SelectDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/SqlServer/SelectDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/SqlServer/SqlServer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/SqlServer/SqlServer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Sqlite/SelectDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Sqlite/SelectDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Sqlite/Sqlite.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Platform/Sqlite/Sqlite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/Between.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/Between.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/Expression.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/Expression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/In.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/In.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/IsNotNull.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/IsNotNull.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/IsNull.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/IsNull.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/Like.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/Like.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/Literal.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/Literal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/NotBetween.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/NotBetween.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/NotIn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/NotIn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/NotLike.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/NotLike.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/Operator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/Operator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/Predicate.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/Predicate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/PredicateInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/PredicateInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/PredicateSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Predicate/PredicateSet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/PreparableSqlInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/PreparableSqlInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Select.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Select.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Sql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/SqlInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/SqlInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/TableIdentifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/TableIdentifier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Update.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Where.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/Sql/Where.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/AbstractTableGateway.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/AbstractTableGateway.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Exception/ExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Exception/RuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Exception/RuntimeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/AbstractFeature.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/AbstractFeature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/EventFeature.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/EventFeature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/EventFeature/TableGatewayEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/EventFeature/TableGatewayEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/EventFeatureEventsInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/EventFeatureEventsInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/FeatureSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/FeatureSet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/GlobalAdapterFeature.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/GlobalAdapterFeature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/MasterSlaveFeature.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/MasterSlaveFeature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/MetadataFeature.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/MetadataFeature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/RowGatewayFeature.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/RowGatewayFeature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/SequenceFeature.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/Feature/SequenceFeature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/TableGateway.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/TableGateway.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/TableGatewayInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/TableGatewayInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/AbstractFactory/ConfigAbstractFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/AbstractFactory/ConfigAbstractFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/AbstractFactory/ReflectionBasedAbstractFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/AbstractFactory/ReflectionBasedAbstractFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/AbstractFactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/AbstractFactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/AbstractPluginManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/AbstractPluginManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/ConfigInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/ConfigInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/DelegatorFactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/DelegatorFactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Exception/ContainerModificationsNotAllowedException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Exception/ContainerModificationsNotAllowedException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Exception/CyclicAliasException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Exception/CyclicAliasException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Exception/ExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Exception/InvalidServiceException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Exception/InvalidServiceException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Exception/ServiceNotCreatedException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Exception/ServiceNotCreatedException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Exception/ServiceNotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Exception/ServiceNotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Factory/AbstractFactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Factory/AbstractFactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Factory/DelegatorFactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Factory/DelegatorFactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Factory/FactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Factory/FactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Factory/InvokableFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Factory/InvokableFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/FactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/FactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Initializer/InitializerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Initializer/InitializerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/InitializerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/InitializerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/PluginManagerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/PluginManagerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Proxy/LazyServiceFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Proxy/LazyServiceFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/ServiceLocatorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/ServiceLocatorInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/ServiceManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/ServiceManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Test/CommonPluginManagerTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Test/CommonPluginManagerTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Tool/ConfigDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Tool/ConfigDumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Tool/ConfigDumperCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Tool/ConfigDumperCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Tool/FactoryCreator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Tool/FactoryCreator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Tool/FactoryCreatorCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Tool/FactoryCreatorCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/AbstractOptions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/AbstractOptions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArrayObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArrayObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArraySerializableInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArraySerializableInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArrayStack.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArrayStack.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArrayUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArrayUtils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArrayUtils/MergeRemoveKey.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArrayUtils/MergeRemoveKey.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArrayUtils/MergeReplaceKey.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArrayUtils/MergeReplaceKey.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArrayUtils/MergeReplaceKeyInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArrayUtils/MergeReplaceKeyInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ConsoleHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ConsoleHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/DispatchableInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/DispatchableInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ErrorHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ErrorHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Exception/BadMethodCallException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Exception/BadMethodCallException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Exception/DomainException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Exception/DomainException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Exception/ExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Exception/ExtensionNotLoadedException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Exception/ExtensionNotLoadedException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Exception/LogicException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Exception/LogicException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Exception/RuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Exception/RuntimeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/FastPriorityQueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/FastPriorityQueue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Glob.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Glob.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Guard/AllGuardsTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Guard/AllGuardsTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Guard/ArrayOrTraversableGuardTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Guard/ArrayOrTraversableGuardTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Guard/EmptyGuardTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Guard/EmptyGuardTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Guard/NullGuardTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Guard/NullGuardTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/InitializableInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/InitializableInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/JsonSerializable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/JsonSerializable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/MessageInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/MessageInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ParameterObjectInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ParameterObjectInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Parameters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ParametersInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ParametersInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/PriorityList.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/PriorityList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/PriorityQueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/PriorityQueue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/RequestInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/RequestInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ResponseInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ResponseInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/SplPriorityQueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/SplPriorityQueue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/SplQueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/SplQueue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/SplStack.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/SplStack.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringUtils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/AbstractStringWrapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/AbstractStringWrapper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/Iconv.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/Iconv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/Intl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/Intl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/MbString.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/MbString.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/Native.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/Native.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/StringWrapperInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/StringWrapperInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/author.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/author.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/authorview.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/authorview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/books.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/books.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/genre.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/genre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/genreview.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/genreview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/scan.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/scan.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +464,7 @@
     <session id="-218767635">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="3" />
@@ -51,35 +475,36 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="4" />
-          <entry key="htaccess" value="5" />
-          <entry key="html" value="1" />
+          <entry key="htaccess" value="6" />
+          <entry key="html" value="2" />
           <entry key="jpg" value="1" />
-          <entry key="json" value="3" />
-          <entry key="php" value="145" />
-          <entry key="sql" value="6" />
+          <entry key="json" value="4" />
+          <entry key="php" value="161" />
+          <entry key="sql" value="5" />
           <entry key="test" value="4" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="2" />
           <entry key="Image" value="1" />
-          <entry key="JSON" value="3" />
-          <entry key="PHP" value="145" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="SQL" value="4" />
+          <entry key="JSON" value="4" />
+          <entry key="PHP" value="161" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="SQL" value="3" />
           <entry key="Scratch" value="2" />
-          <entry key="htaccess" value="5" />
+          <entry key="htaccess" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="9" />
           <entry key="dummy" value="18" />
-          <entry key="htaccess" value="163" />
+          <entry key="htaccess" value="168" />
           <entry key="json" value="24" />
-          <entry key="php" value="8096" />
+          <entry key="php" value="8857" />
           <entry key="test" value="68" />
           <entry key="txt" value="8" />
         </counts>
@@ -89,10 +514,10 @@
           <entry key="CSS" value="9" />
           <entry key="HTML" value="1" />
           <entry key="JSON" value="24" />
-          <entry key="PHP" value="8047" />
+          <entry key="PHP" value="8808" />
           <entry key="PLAIN_TEXT" value="94" />
           <entry key="SQL" value="48" />
-          <entry key="htaccess" value="163" />
+          <entry key="htaccess" value="168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -104,7 +529,43 @@
       <usages-collector id="statistics.php.composer.actions">
         <counts>
           <entry key="install_from_ComposerEditorNotificationPanel" value="1" />
-          <entry key="updateAll_from_ComposerEditorNotificationPanel" value="4" />
+          <entry key="updateAll_from_ComposerEditorNotificationPanel" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1419074573">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="json" value="1" />
+          <entry key="php" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JSON" value="1" />
+          <entry key="PHP" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="5" />
+          <entry key="php" value="1075" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="5" />
+          <entry key="PHP" value="1075" />
         </counts>
       </usages-collector>
     </session>
@@ -115,19 +576,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/MySql.php">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -135,17 +587,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/controllers/Main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="204">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/controllers/Author.php">
+        <entry file="file://$PROJECT_DIR$/App/MySql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="935">
+              <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -153,41 +614,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/scan.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state>
+              <caret column="52" lean-forward="true" selection-start-column="52" selection-end-column="52" />
+              <folding>
+                <element signature="e#26#51#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/controllers/Search.php">
+        <entry file="file://$PROJECT_DIR$/views/authorview.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
+        <entry file="file://$PROJECT_DIR$/App/Db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state relative-caret-position="469">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test (1).sql">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -207,20 +668,13 @@
         <option value="$PROJECT_DIR$/Core/MySql.php" />
         <option value="$PROJECT_DIR$/books.php" />
         <option value="$PROJECT_DIR$/views/books.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/indexbooks.php" />
         <option value="$PROJECT_DIR$/public/views/index.php" />
         <option value="$PROJECT_DIR$/App/controllers/Books.php" />
         <option value="$PROJECT_DIR$/App/controllers/Genre.php" />
-        <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/App/Db.php" />
-        <option value="$PROJECT_DIR$/views/author.php" />
         <option value="$PROJECT_DIR$/views/genre.php" />
         <option value="$PROJECT_DIR$/views/footer.php" />
-        <option value="$PROJECT_DIR$/App/Controller.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/views/index.php" />
         <option value="$PROJECT_DIR$/App/controllers/AuthorView.php" />
         <option value="$PROJECT_DIR$/App/controllers/GenreView.php" />
         <option value="$PROJECT_DIR$/App/controllers/Index.php" />
@@ -228,13 +682,22 @@
         <option value="$PROJECT_DIR$/views/authorview.php" />
         <option value="$PROJECT_DIR$/views/genreview.php" />
         <option value="$PROJECT_DIR$/App/controllers/Author.php" />
-        <option value="$PROJECT_DIR$/views/scan.php" />
-        <option value="$PROJECT_DIR$/App/controllers/Search.php" />
-        <option value="$PROJECT_DIR$/App/MySql.php" />
-        <option value="$PROJECT_DIR$/App/controllers/Main.php" />
-        <option value="$PROJECT_DIR$/views/main.php" />
         <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/views/index.php" />
+        <option value="$PROJECT_DIR$/App/controllers/Search.php" />
+        <option value="$PROJECT_DIR$/views/author.php" />
+        <option value="$PROJECT_DIR$/public/test.html" />
+        <option value="$PROJECT_DIR$/views/main.php" />
+        <option value="$PROJECT_DIR$/App/Db.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/config/db.php" />
+        <option value="$PROJECT_DIR$/public/.htaccess" />
+        <option value="$PROJECT_DIR$/views/scan.php" />
+        <option value="$PROJECT_DIR$/App/MySql.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/App/controllers/Main.php" />
+        <option value="$PROJECT_DIR$/App/Controller.php" />
       </list>
     </option>
   </component>
@@ -247,15 +710,9 @@
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-db" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-stdlib" />
-      <path value="$PROJECT_DIR$/vendor/ripaclub/sphinxsearch" />
-      <path value="$PROJECT_DIR$/vendor/psr/container" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1252" />
     <option name="height" value="995" />
   </component>
@@ -272,6 +729,27 @@
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -281,8 +759,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
@@ -331,17 +810,19 @@
       <workItem from="1543070869360" duration="11618000" />
       <workItem from="1543121944927" duration="3015000" />
       <workItem from="1543210515442" duration="2984000" />
-      <workItem from="1543251299495" duration="25020000" />
+      <workItem from="1543251299495" duration="24646000" />
+      <workItem from="1543391641192" duration="10472000" />
+      <workItem from="1543411473053" duration="734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101634000" />
+    <option name="totallyTimeSpent" value="121454000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1280" height="997" extended-state="7" />
+    <frame x="0" y="-1" width="1280" height="997" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.3846154" visible="true" weight="0.18071313" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.3846154" visible="true" weight="0.18071313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.61538464" side_tool="true" weight="0.19286872" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -354,7 +835,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5424312" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3428899" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32912844" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -362,7 +843,7 @@
       <window_info anchor="right" id="Database" order="3" weight="0.3298217" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.3846154" visible="true" weight="0.29821718" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.3846154" visible="true" weight="0.19742814" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.61538464" side_tool="true" weight="0.19286872" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -392,10 +873,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/local/baba.sql" />
     <entry file="file://$PROJECT_DIR$/Core/interfece/DkMetod.php" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/353a8968-c746-47d4-9977-122d661a9bf6/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/controllers/main.php" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/353a8968-c746-47d4-9977-122d661a9bf6/console.sql" />
     <entry file="file://$PROJECT_DIR$/local/helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -409,44 +887,11 @@
     <entry file="file://$PROJECT_DIR$/front/css/images/ui-icons_222222_256x240.png.html" />
     <entry file="file://$PROJECT_DIR$/views/bootstrap.min.css" />
     <entry file="file://$PROJECT_DIR$/.htaccess" />
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local/test" />
     <entry file="file://$PROJECT_DIR$/baba (2).sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8b309900-c6cb-42fa-a569-79092dc568c7/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/author.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/genre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="103" selection-start-line="3" selection-start-column="103" selection-end-line="3" selection-end-column="103" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8b309900-c6cb-42fa-a569-79092dc568c7/console.sql" />
     <entry file="file://$PROJECT_DIR$/views/books.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -466,34 +911,7 @@
         <state relative-caret-position="-255" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/authorview.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Request.php" />
     <entry file="file://$PROJECT_DIR$/views/genreview.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -508,95 +926,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/controllers/Genre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/controllers/GenreView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/controllers/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/controllers/AuthorView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="261">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/controllers/Author.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="315">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/scan.php">
+    <entry file="file://$PROJECT_DIR$/App/controllers/GenreView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="294">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/controllers/Genre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/genre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="103" selection-start-line="3" selection-start-column="103" selection-end-line="3" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/controllers/AuthorView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/controllers/Search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        <state relative-caret-position="378">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/MySql.php">
+    <entry file="file://$PROJECT_DIR$/views/author.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/csprng/CSPRNG.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/amqp/amqp.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/views/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/controllers/Main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="408">
+          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test (1).sql">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/example_homepage.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/authorview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/scan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="52" lean-forward="true" selection-start-column="52" selection-end-column="52" />
+          <folding>
+            <element signature="e#26#51#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/MySql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/controllers/Main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

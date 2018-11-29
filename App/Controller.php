@@ -16,6 +16,6 @@ abstract class Controller
     }
 
 
-    abstract public function __invoke();
+    abstract public     function __invoke();
 
 }
